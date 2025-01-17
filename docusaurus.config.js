@@ -26,14 +26,7 @@ module.exports = async function createConfigAsync() {
           name: 'keywords',
           content: 'zzzzzzzzzz, disnox',
         },
-        {
-          name: 'keywords',
-          content: 'blog, C/C++, STM32, Linux, qt, simulink, AD',
-        },
-        {
-          name: 'keywords',
-          content: '嵌入式zzzzzzzzzzzz兼狮, C语言, STM32, Linux, qt，simulink, AD',
-        },
+
       ],
       docs: {
         sidebar: {
@@ -143,14 +136,7 @@ module.exports = async function createConfigAsync() {
                 label: 'bilbil',
                 href: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
               },
-              {
-                label: 'CSDN',
-                href: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
-              },
-              {
-                label: '知乎',
-                href: 'https://www.zhihu.com/people/chui-zi-26-38',
-              },
+
             ],
           },
           {
@@ -166,9 +152,7 @@ module.exports = async function createConfigAsync() {
                 position: 'right',
                 to: 'resource',
               },
-              {
-                html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
-              },
+              
             ],
           },
         ],
@@ -272,25 +256,7 @@ module.exports = async function createConfigAsync() {
       path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),
       path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
       [
-        path.resolve(__dirname, './src/plugin/plugin-content-blog'),
-        {
-          path: 'blog',
-          editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-            `https://github.com/disnox/blog/edit/main/${blogDirPath}/${blogPath}`,
-          editLocalizedFiles: false,
-          blogDescription: '333333张三的个人博客',
-          blogSidebarCount: 10,
-          blogSidebarTitle: 'Blogs',
-          postsPerPage: 10,
-          showReadingTime: true,
-          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
-          feedOptions: {
-            type: 'all',
-            title: '444张三',
-            copyright: `Copyright © ${new Date().getFullYear()} 张三 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
-          },
-        },
+        
       ],
       [
         '@docusaurus/plugin-ideal-image',
