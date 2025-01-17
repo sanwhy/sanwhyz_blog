@@ -9,8 +9,8 @@ export const projects: Project[] = [
     type: '🤖Project',
   },
   {
-    title: '客运购票系统',
-    description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
+    title: '客55555系统',
+    description: '采用 Linu5555555部分需求，学习使用',
     preview: '/img/project/kernel_list.png',
     website: 'https://github.com/disnox/ticket_system',
     source: 'https://github.com/disnox/ticket_system',
@@ -18,7 +18,7 @@ export const projects: Project[] = [
     type: '🤖Project',
   },
   {
-    title: '自助点餐系统',
+    title: '自助点555统',
     description: '基于 Linux 和 C语言 的自助点餐系统',
     preview: '/img/project/self.png',
     website: 'https://github.com/disnox/self_service_order',
