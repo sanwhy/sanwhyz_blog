@@ -7,7 +7,7 @@ const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>小站
 module.exports = async function createConfigAsync() {
   /** @type {import('@docusaurus/types').Config} */
   return {
-    title: '尚宇的小站',
+    title: 'zzzzz的小站',
     url: 'https://disnox.top',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
@@ -24,7 +24,7 @@ module.exports = async function createConfigAsync() {
       metadata: [
         {
           name: 'keywords',
-          content: '尚宇, disnox',
+          content: 'zzzzzzzzzz, disnox',
         },
         {
           name: 'keywords',
@@ -32,7 +32,7 @@ module.exports = async function createConfigAsync() {
         },
         {
           name: 'keywords',
-          content: '嵌入式软硬兼狮, C语言, STM32, Linux, qt，simulink, AD',
+          content: '嵌入式zzzzzzzzzzzz兼狮, C语言, STM32, Linux, qt，simulink, AD',
         },
       ],
       docs: {
