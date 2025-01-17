@@ -42,7 +42,7 @@ module.exports = async function createConfigAsync() {
       },
       navbar: {
         logo: {
-          alt: '尚宇',
+          alt: '1111111尚宇',
           src: 'img/logo.webp',
           srcDark: 'img/logo.webp',
         },
@@ -173,7 +173,7 @@ module.exports = async function createConfigAsync() {
           },
         ],
         // copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 尚宇 Built with Docusaurus.</p>`,
-        copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处</p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
+        copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处</p><p>Copyright © 2022 - PRESENT 尚123宇 Built with Docusaurus.</p>`,
       },
       prism: {
         theme: require('prism-react-renderer/themes/vsLight'),
@@ -235,7 +235,7 @@ module.exports = async function createConfigAsync() {
         tagName: 'meta',
         attributes: {
           name: 'description',
-          content: '尚宇的个人博客',
+          content: '2222222尚宇的个人博客',
         },
       },
     ],
@@ -278,7 +278,7 @@ module.exports = async function createConfigAsync() {
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
             `https://github.com/disnox/blog/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
-          blogDescription: '尚宇的个人博客',
+          blogDescription: '333333尚宇的个人博客',
           blogSidebarCount: 10,
           blogSidebarTitle: 'Blogs',
           postsPerPage: 10,
@@ -287,7 +287,7 @@ module.exports = async function createConfigAsync() {
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           feedOptions: {
             type: 'all',
-            title: '尚宇',
+            title: '444尚宇',
             copyright: `Copyright © ${new Date().getFullYear()} 尚宇 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
           },
         },
